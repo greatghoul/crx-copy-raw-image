@@ -1,14 +1,30 @@
 {
   "appName": {
-    "message": "Copy Raw Image",
+    "message": "Copy Raw Image Data",
     "description": "Name of the application."
   },
   "appDesc": {
-    "message": "Copy the image data without source information.",
+    "message": "Copy the image data without source url reference",
     "description": "Description of the application."
   },
-  "appTooltip": {
-  	"message": "Extension Popup Title",
-  	"description": "Title of the popup icon."
-  }
+	"menuName": {
+    "message": "Copy Raw Image Data",
+    "description": "Name of the context menu item."
+	},
+	"msgSuccessTitle": {
+		"message": "SUCCESS!",
+		"description": "Title of the notification after copied image to clipboard"
+	},
+	"msgSuccessMessage": {
+		"message": "Image data copied to clipboard.",
+		"description": "Message of the notification after copied image to clipboard"
+	},
+	"msgFailureTitle": {
+		"message": "OOPS!",
+		"description": "Title of the notification after failed to load the image"
+	},
+	"msgFailureMessage": {
+		"message": "Failed to load the image data.",
+		"description": "Message of the notification after failed to load the image"
+	}
 }

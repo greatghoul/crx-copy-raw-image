@@ -12,12 +12,6 @@
     "128": "images/icon.png"
   },
 
-  "action": {
-    "default_icon": "images/icon.png",
-    "default_popup": "popup.html",
-    "default_title": "__MSG_appTooltip__"
-  },
-
   "background": {
     "service_worker": "sw.js"
   },
@@ -25,7 +19,8 @@
   "permissions": [
     "activeTab",
 		"contextMenus",
-		"scripting"
+		"scripting",
+		"notifications"
   ],
 
 	"host_permissions": [
