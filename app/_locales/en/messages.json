@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "Extension Name",
+    "message": "Copy Raw Image",
     "description": "Name of the application."
   },
   "appDesc": {
-    "message": "Extension Description",
+    "message": "Copy the image data without source information.",
     "description": "Description of the application."
   },
   "appTooltip": {

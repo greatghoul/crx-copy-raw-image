@@ -19,11 +19,16 @@
   },
 
   "background": {
-    "service_workder": "sw.js",
-    "type": "module"
+    "service_worker": "sw.js"
   },
 
   "permissions": [
-    "activeTab"
-  ]
+    "activeTab",
+		"contextMenus",
+		"scripting"
+  ],
+
+	"host_permissions": [
+		"<all_urls>"
+	]
 }
